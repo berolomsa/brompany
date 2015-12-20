@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- Mirrored from smart-sms.ru/landing/_html/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Dec 2015 13:58:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+   
+    <title>SmartSMS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="../favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="../favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="../favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="../favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="http://smart-sms.ru/landing/favicons/manifest.json">
+    <link rel="mask-icon" href="http://smart-sms.ru/landing/favicons/safari-pinned-tab.svg" color="#08979a">
+    <link rel="shortcut icon" href="http://smart-sms.ru/landing/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#16171a">
+    <meta name="msapplication-TileImage" content="/landing/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/landing/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#18e28f">
+    
+    <link rel="stylesheet" href="../styles/lib.css">
+
+    <link rel="stylesheet" href="../styles/app.css">
+
+    <script src="../scripts/vendor/modernizr.js"></script>
+</head>
+<body>
+
+    <div class="p-wr">
+        <div class="mob-menu js-mob-menu">
+    <div class="mob-menu__inner">
+        <div class="mob-menu__top">
+         
+            <button class="btn-burger _close js-mob-menu-close" type="button"><i></i></button>
+        </div>
+        <div class="mob-menu__items">
+            <ul>
+                <li><a class="js-goto-btn _mob" data-href="2" href="#!">ჩვენ</a></li>
+                <li><a class="js-goto-btn _mob" data-href="3" href="#!">გუნდი</a></li>
+                <li><a class="js-goto-btn _mob" data-href="5" href="#!">ნამუშევრები</a></li>
+                <li><a class="js-goto-btn _mob" data-href="6" href="#!">კონტაქტი</a></li>
+            </ul>
+        </div>
+    </div>
+</div>        <div class="page-wr">
+            <header class="header wrapper js-header">
+                <!-- <div class="header__logo">
+                    <a class="logo" href="#!"><span>SmartSMS</span></a>
+                </div> -->
+
+
+                <div class="header__menu">
+                    <!-- <a class="btn btn--user js-user-btn" href="http://smart-sms.ru/cabinet" target="_blank">Profile</a> -->
+                    <button id="open-button" class="btn-burger _menu js-menu-btn" type="button"><i></i></button>
+                </div>
+            </header>
+
+ <!--            <div class="page-nav">
+                <button class="page-nav__btn js-page-nav _prev _hidden" type="button">Предыдущая страница</button>
+                <button class="page-nav__btn js-page-nav _next _hidden" type="button">Следующая страница</button>
+            </div> -->
+
+            <div class="pages">
+
+                <div class="page page-1 active">
+                    <div class="page__part page__full">
+                        <div class="page__content">
+                           
+                            <div class="preloader">
+                              <svg viewBox="0 0 400 400" class="preloader__start">
+                                <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="200" y2="100">
+                                  <stop  offset="0.1916" style="stop-color:#1b1515"/>
+                                  <stop  offset="0.2264" style="stop-color:#2c1b1b"/>
+                                  <stop  offset="0.2932" style="stop-color:#4a2020"/>
+                                  <stop  offset="0.3852" style="stop-color:#711e1e"/>
+                                  <stop  offset="0.498" style="stop-color:#af1d1d"/>
+                                  <stop  offset="0.5" style="stop-color:#da1818"/>
+                                </linearGradient>
+                                <path fill="url(#SVGID_11_)" d="M2,200H0C0,89.7,89.7,0,200,0v2C90.8,2,2,90.8,2,200z"/>
+                              </svg>
+                              <svg class="preloader__svg" viewBox="0 0 400 400">
+                                <path class="preloader__circle" d="M200,0 a200,200 0 0,1 0,400 a200,200 0 0,1 0,-400"/>
+                                <path class="preloader__circle-2" d="M200,-56 a256,256 0 0,1 0,512 a256,256 0 0,1 0,-512"/>
+                                <path class="preloader__circle-3" d="M200,-115 a315,315 0 0,1 0,630 a315,315 0 0,1 0,-630"/>
+                                <path class="preloader__progress" d="M200,1 a199,199 0 0,1 0,398 a199,199 0 0,1 0,-398"/>
+                              </svg>
+
+                              <div class="rotater">
+                                <div class="rotater__marker"></div>
+                              </div>
+                            </div>
+
+                            <div class="central-nav">
+                                <div class="central-nav__desc">
+                                    <img class="central-nav__big-logo" src="../images/smart-sms.png"/>
+                                    <div class="central-nav__slogan">Умный канал коммуникации для вашего бизнеса</div>
+                                    
+                                </div>
+
+                                <div class="central-nav__plane-cont">
+                                    <div class="central-nav__rotating-plane"></div>
+                                </div>
+
+                               <div class="central-nav__items">
+                                    <div class="central-nav__item central-nav__item-1">
+                                        <svg class="central-nav__item-dot js-goto-btn" data-href="2">
+                                          <circle class="central-nav__item-circle_outer" r="9.5" cx="7.5" cy="7.5"/>
+                                          <circle class="central-nav__item-circle_inner" r="5.5" cx="7.5" cy="7.5"/>
+                                        </svg>
+                                    </div>
+
+                                    <div class="central-nav__item central-nav__item-2">
+                                        <svg class="central-nav__item-dot js-goto-btn" data-href="3">
+                                          <circle class="central-nav__item-circle_outer" r="9.5" cx="7.5" cy="7.5"/>
+                                          <circle class="central-nav__item-circle_inner" r="5.5" cx="7.5" cy="7.5"/>
+                                        </svg>
+                                    </div>
+
+                                    <div class="central-nav__item central-nav__item-4">
+                                        <svg class="central-nav__item-dot js-goto-btn" data-href="5">
+                                          <circle class="central-nav__item-circle_outer" r="9.5" cx="7.5" cy="7.5"/>
+                                          <circle class="central-nav__item-circle_inner" r="5.5" cx="7.5" cy="7.5"/>
+                                        </svg>
+                                    </div>
+
+                                    <div class="central-nav__item central-nav__item-5">
+                                        <svg class="central-nav__item-dot js-goto-btn" data-href="6">
+                                          <circle class="central-nav__item-circle_outer" r="9.5" cx="7.5" cy="7.5"/>
+                                          <circle class="central-nav__item-circle_inner" r="5.5" cx="7.5" cy="7.5"/>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page page-2">
+                    <div class="page__part page__half page__half--left">
+                        <div class="page__content"></div>
+                    </div>
+
+                    <div class="page__part page__half page__half--right">
+                        <div class="page__content">
+                            <div class="about__body-inner">
+                                <div class="title-block"><span>1.</span></div>
+                                <div class="about__body-desc">
+                                    <h3>ვინ ვართ ჩვენ</h3>
+                                    <p>მზე</p>
+                                    <div class="btn-wr">
+                                        <button class="btn btn--logo js-goto-btn" data-href="6"><span>Попробовать прямо сейчас</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="page page-3">
+                    <div class="page__part page__half page__half--left">
+                        <div class="page__content">
+                            <div class="if-slider__body js-if-slider">
+                                <div class="if-slide sl_0 js-if-slide _active">
+                                    <div class="if-slide__inner">
+                                        <div class="if-slide__img">
+                                            <img src="../images/userfiles/v1.png">
+                                        </div>
+
+                                        <div class="if-slide__desc">
+                                            <p>На основе данных, предоставляемых операторами сотовой связи, сервис «SmartWidget»,встроенный в нашу систему, автоматически идентифицирует пользователей мобильного интернета на вашем сайте. </p>
+
+                                            <p><span>Мобильные посетители сайта в явном виде соглашаются с использованием их персональных данных посредством нажатия на кнопку подтверждения публичной оферты в «SmartWidget»</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="if-slide sl_1 js-if-slide">
+                                    <div class="if-slide__inner">
+                                        <div class="if-slide__img">
+                                            <div>
+                                                <span>Без Smartsms</span>
+                                                <span>Со Smartsms</span>
+                                                <img src="../images/userfiles/v3.png">
+                                            </div>
+                                        </div>
+
+                                        <div class="if-slide__desc">
+                                            <div class="if-slide-desc">
+                                                <p>
+                                                    После идентификации мобильного посетителя вашего сайта вы может отправить персонализированное сообщение на его устройство без дополнительных действий с его стороны.
+                                                </p>
+                                                <p><span>Персонализированное сообщение может содержать как специальное предложение или скидку, так и являться частью акции по возврату пользователей на ваш сайт.  </span></p>
+                                            <div class="if-slide-subtitle">
+                                                    стоимость 
+                                                    персонализированного 
+                                                    контакта  — <span>6 рублей</span>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="if-slide sl_2 js-if-slide">
+                                    <div class="if-slide__inner">
+                                        <div class="if-slide__img">
+                                            <div>
+                                                <img src="../images/userfiles/v3-1.png">
+                                            </div>
+                                        </div>
+
+                                        <div class="if-slide__desc">
+                                            <p>Онлайн аналитикаSmartSMS — это инструмент для контроля эффективности работы сервиса на вашем сайте в реальном времени. Ключевые показатели собраны на одной странице и меняются в течение дня, отображая актуальную статистику отправленных сообщений, показатели конверсии и текущие данные о расходах. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__part page__half page__half--right">
+                        <div class="page__content">
+                            <div class="feat-wr">
+                                <div class="title-block">
+                                    <span>2.</span>
+                                    <h2>ВОЗМОЖНОСТИ</h2>
+                                </div>
+                                <div class="if-slider__head">
+                                    <div class="if-slider__head--inner">
+                                        <button class="if-slider__btn js-if-slider-btn _active" data-id="0">Smart Widget</button>
+                                        <button class="if-slider__btn js-if-slider-btn" data-id="1">Отправка персонализированных сообщений</button>
+                                        <button class="if-slider__btn js-if-slider-btn" data-id="2">Онлайн аналитика SmartSMS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page page-5">
+                    <div class="page__part page__half page__half--left">
+                        <div class="page__content">
+                            <div class="cases-inner">
+                                <div class="ic-list">
+                                    <div class="case case--img js-case" data-id="0">
+                                        <div class="case__img" style="background-image:url(../images/userfiles/c_fur.jpg)"></div>
+                                        <div class="case__inner">
+                                            <div class="case__logo"><!-- img src="../images/userfiles/c1.jpg" --></div>
+                                            <div class="case__desc">
+                                                <div class="case__desc">
+                                                    <div class="case__title"><span>Меховая Фабрика</span></div>
+                                                    <p>Кампания под акцию для крупного магазина одежды. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case js-case" data-id="1">
+                                        <div class="case__inner">
+                                            <div class="case__logo"><img src="../images/userfiles/mobikit.png"></div>
+                                            <div class="case__desc">
+                                                <div class="case__desc">
+                                                    <div class="case__title"><span>Мобильная кухня</span></div>
+                                                    <p>Рекламаная кампания для интернет студии.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case case--grey js-case" data-id="2">
+                                        <div class="case__inner">
+                                            <div class="case__logo"><!-- img src="../images/userfiles/mebelion.png" --></div>
+                                            <div class="case__desc">
+                                                <div class="case__desc">
+                                                    <div class="case__title"><span>Мебельный магазин</span></div>
+                                                    <p>Рекламная кампания для крупного мебельного магазина.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__part page__half page__half--right">
+                        <div class="page__content">
+                            <div class="cases-inner">
+                                <div class="ic-list">
+                                    <div class="case case--grey case--title">
+                                        <div class="case__inner">
+                                            <div class="title-block">
+                                                <span>4.</span>
+                                                <h2>Brompany</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="case js-case" data-id="3">
+                                        <div class="case__inner">
+                                            <div class="case__logo"><img src="../images/userfiles/moaction.png"></div>
+                                            <div class="case__desc">
+                                                <div class="case__desc">
+                                                    <div class="case__title"><span>MoAction</span></div>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                   <div class="case case--img js-case" data-id="4">
+                                        <div class="case__inner">
+                                            <div class="case__logo"><img src="../images/userfiles/panchemodan.jpg"></div>
+                                            <div class="case__desc">
+                                                <div class="case__desc">
+                                                    <div class="case__title"><span>Пан Чемодан</span></div>
+                                                    <p>Рекламная кампания для "Пан Чемодан".</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="case__img" style="background-image:url(../images/userfiles/c2.jpg)"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page page-6">
+                    <div class="page__part page__half page__half--left">
+                        <div class="page__content">
+                        </div>
+                    </div>
+                    <div class="page__part page__half page__half--right">
+                        <div class="page__content">
+                            <div class="index-try__inner">
+                                <div class="title-block">
+                                    <span>5.</span>
+                                    <h2>попробовать <br>в деле</h2>
+                                </div>
+                                <form class="ih-form wrapper" action="http://smart-sms.ru/auth/auto_register" method="GET">
+                                    <p>После регистрации вы попадете в личный ­кабинет, где сможете создать кампанию Sm­art SMS</p>
+
+                                    <div class="form-row">
+                                        <input 
+                                            type="text"
+                                            class="input-one"
+                                            name="name"
+                                            required
+                                            placeholder="Ваше имя">
+                                        <div class="inp-dis"></div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <input 
+                                            type="email"
+                                            class="input-one"
+                                            name="email"
+                                            required
+                                            placeholder="Ваша почта">
+                                        <div class="inp-dis"></div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <input 
+                                            type="tel"
+                                            class="input-one"
+                                            name="phone"
+                                            required
+                                            placeholder="Ваш телефон">
+                                        <div class="inp-dis"></div>
+                                    </div>
+                                    
+                                    <button class="btn btn--green" type="submit">начать работу</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="overlay js-ic-popup-close"></div>
+            
+            <div class="ic-popup js-ic-popup">
+                <button class="ic-popup__close js-ic-popup-close" type="button">close</button>
+                <div class="ic-slider js-ic-slider">
+
+                    <div class="cpopup-one">
+                        <div class="cpopup__inner">
+                            <div class="cpopup__logo">
+                                <!-- img src="../images/userfiles/c2.png" -->
+                            </div>
+                            <div class="cpopup__specs">
+                                <ul>
+                                    <li><strong>Клиент</strong><span>Меховая фабрика</span></li>
+                                    <li><strong>Всего посетителей</strong><span>7 500 000</span></li>
+                                    <li><strong>Определено мобильных пользователей</strong><span>180 000</span></li>
+                                    <li><strong>Отправлено сообщений</strong><span>24 000</span></li>
+                                    <li><strong>Возвратов на сайт</strong><span>20.6%</span></li>
+                                    <li><strong>Конверсия новых регистраций</strong><span>4%</span></li>
+                                    <li><strong>Совершенных покупок</strong><span>3%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cpopup-one">
+                        <div class="cpopup__inner">
+                            <div class="cpopup__logo">
+                                <img src="../images/userfiles/mobikit.png">
+                            </div>
+                            <div class="cpopup__specs">
+                                <ul>
+                                    <li><strong>Клиент</strong><span>Мобильная кухня</span></li>
+                                    <li><strong>Всего посетителей</strong><span>20 000</span></li>
+                                    <li><strong>Определено мобильных пользователей</strong><span>1100</span></li>
+                                    <li><strong>Отправлено сообщений</strong><span>85</span></li>
+                                    <li><strong>Возвратов на сайт</strong><span>15%</span></li>
+                                    <li><strong>Конвертация в запросы</strong><span>5%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cpopup-one">
+                        <div class="cpopup__inner">
+                            <div class="cpopup__logo">
+                                <!-- img src="../images/userfiles/mebelion.png" -->
+                            </div>
+                            <div class="cpopup__specs">
+                                <ul>
+                                    <li><strong>Клиент</strong><span>Мебельная фабрика</span></li>
+                                    <li><strong>Всего посетителей</strong><span>1 350 000</span></li>
+                                    <li><strong>Определено мобильных пользователей</strong><span>20250</span></li>
+                                    <li><strong>Отправлено сообщений</strong><span>5730</span></li>
+                                    <li><strong>Возвратов на сайт</strong><span>19,3%</span></li>
+                                    <li><strong>Конвертация в запросы</strong><span>5%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cpopup-one">
+                        <div class="cpopup__inner">
+                            <div class="cpopup__logo">
+                                <img src="../images/userfiles/moaction.png">
+                            </div>
+                            <div class="cpopup__specs">
+                                <ul>
+                                    <li><strong>Клиент</strong><span>MoAction</span></li>
+                                    <li><strong>Всего посетителей</strong><span>35 000</span></li>
+                                    <li><strong>Определено мобильных пользователей</strong><span>1900</span></li>
+                                    <li><strong>Отправлено сообщений</strong><span>302</span></li>
+                                    <li><strong>Возвратов на сайт</strong><span>19,3%</span></li>
+                                    <li><strong>Конвертация в запросы</strong><span>5%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cpopup-one">
+                        <div class="cpopup__inner">
+                            <div class="cpopup__logo">
+                                <img src="../images/userfiles/panchemodan.jpg">
+                            </div>
+                            <div class="cpopup__specs">
+                                <ul>
+                                    <li><strong>Клиент</strong><span>Пан Чемодан</span></li>
+                                    <li><strong>Всего посетителей</strong><span>3 000 000</span></li>
+                                    <li><strong>Определено мобильных пользователей</strong><span>50130</span></li>
+                                    <li><strong>Отправлено сообщений</strong><span>8000</span></li>
+                                    <li><strong>Возвратов на сайт</strong><span>18,3%</span></li>
+                                    <li><strong>ROI</strong><span>110%</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // url - Адрес мобильной версии
+        // breakWidth - Ширина, меньше которой происходит переход на моб версию
+        // animTime - Время анимации прелоадера в секундах
+        // planeFlyAnimTime - Время полета самолетика в секундах
+        var g__options = {
+            url: 'http://smart-sms.ru/landing/m/_html/index.php',
+            breakWidth: 992,
+            preloader: {
+              animTime: 2.3,
+              planeFlyAnimTime: 0.7
+            }
+        };
+    </script>
+    
+    <script src="../scripts/lib.js"></script>
+
+<script src="../scripts/app.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6998b36240","applicationID":"16664100","transactionName":"ZwQGZRBQXkZVUEUKV15OMUMLHlxUWldYDV8fPgxFD10fXFpXVBsWQAkU","queueTime":0,"applicationTime":2,"atts":"S0MFE1hKTUg=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+
+<!-- Mirrored from smart-sms.ru/landing/_html/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Dec 2015 13:59:06 GMT -->
+</html>

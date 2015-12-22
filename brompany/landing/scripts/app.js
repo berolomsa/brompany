@@ -14,7 +14,7 @@ $(function() {
         $('.central-nav__item-circle_inner').each(function(i, obj) {
             TweenLite.to($(this), .5, {
                 attr: {
-                    r: 5.5
+                    r: 4
                 },
                 fill: "#faf2f0"
             });
@@ -24,8 +24,8 @@ $(function() {
 
         $('.central-nav__item-circle_outer').each(function(i, obj) {
             TweenLite.to($(this), .5, {
-                attr: {
-                    r: 9.5
+                attr: { 
+                    r: 7.5
                 },
                 fill: "rgba(24, 226, 143, 0)",
                 stroke: "rgba(250, 242, 240, 0.5)"
@@ -37,27 +37,35 @@ $(function() {
         $(".circle-out-" + e).each(function(i, obj){
             TweenLite.to($(this), .5, {
                 attr: {
-                    r: 13.5
+                    r: 10.5
                 },
                 fill: "rgba(24, 226, 143, 0.05)",
                 stroke: "rgba(24, 226, 143, 0)"
             });
+            $(this).attr("class", "central-nav__item-circle_outer active-outer-circle circle-out-" + e);
+
         });
         $(".circle-in-" + e).each(function(i, obj){
             TweenLite.to($(this), .5, {
                 attr: {
-                    r: 10.5
+                    r: 7.5
                 },
                 fill: "#18e28f"
             });
+            $(this).attr("class", "central-nav__item-circle_inner active-inner-circle circle-in-" + e);
+
         });
 
         //End of animating side bar buttons
-        
+        console.log("blax");
         var s = e,
             a = s - 1,
             o = s + 1;
-        n = s, h.removeClass("_hidden"), 1 == s ? h.addClass("_hidden") : s == i && h.filter("._next").addClass("_hidden"), 1 == s ? (t("menu"), m.removeClass("_hide"), _.removeClass("active inactive")) : (t("close"), m.addClass("_hide")), 1 != s ? p.addClass("_filled") : p.removeClass("_filled"),
+        n = s, h.removeClass("_hidden"), 1 == s ? h.addClass("_hidden") : s == i && h.filter("._next").addClass("_hidden"), 1 == s ? (t("menu"), m.removeClass("_hide"), _.removeClass("active inactive")) : (t("close"),
+        _.removeClass("active inactive"), 
+            m.addClass("_hide")), 
+
+        1 != s ? p.addClass("_filled") : p.removeClass("_filled"),
          $(".page-" + s).removeClass("active").addClass("inactive"), 
          $(".page-" + s).removeClass("inactive").addClass("active"),
           $(".page-" + o).removeClass("active"), setTimeout(function() {
@@ -102,6 +110,7 @@ $(function() {
         f = $(".js-how-to-block");
     u.on("click", function() {
         if (!c) {
+            console.log("blaa");
             var s = $(this),
                 a = s.data("href");
             s.hasClass("_mob") ? ($B.removeClass("_menu-open"), setTimeout(function() {
@@ -232,12 +241,12 @@ $(function() {
                 s = $(".inactive-outer-circle", this);
             TweenLite.to(e, j, {
                 attr: {
-                    r: 5.5
+                    r: 4
                 },
                 fill: "#faf2f0"
             }), TweenLite.to(s, j, {
                 attr: {
-                    r: 9.5
+                    r: 7.5
                 },
                 fill: "rgba(24, 226, 143, 0)",
                 stroke: "rgba(250, 242, 240, 0.5)"
